@@ -1,25 +1,36 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
-  font-size: 16px;
-  line-height: 1.2;
+  background-color: #d3d3d3;
+  color: #000000;
+  font-size: 18px;
+  line-height: 3;
+
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #909090;
   float: left;
   position: fixed;
   width: 100%;
   font-size: 2em;
+  line-height: .75;
 }
 
-.logo { url(images/bloc-logo.png)
-  margin: 20px;
+.logo {
+  background:#fff url(images/bloc-logo.png) no-repeat
+  background-position: top;
+  padding: 20px;
+  border: 20px;
   width: 100px;
 }
 
-.large-pic { url(images/instagram-pic.jpg)
+.large-pic {
+  background: #fff url(images/instagram-pic.jpg) no-repeat
+  background-position: top;
   width: 100%;
+  padding-top: 100px;
+
+
+
 }
 
 .medium-pic {
@@ -45,17 +56,39 @@ li {
   padding: 30px;
 }
 
+h1
+{font-size: 3em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+
+h3
+  {font-size: 2em;
+    font-weight: bold;
+    line-height: 1.25;
+    padding-top: 25px;
+  }
+
+p.author
+{ font-size: 1.25em;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+
 article {
   font-size: 100%;
-  padding-top: 100px;
+  padding-top: 10px;
+  line-height: 3;
   line-height: 2em;
 }
 
 a {
   text-decoration: none;
-  text-decoration: line-through;
 
-  a:link { color:#0070BB; } /* unvisited */
+
+a:link { color:#FFFFFF; } /* unvisited */
 a:visited { color:#0070BA; } /* visited */
 a:hover { color:#0070BC; } /* mouse over */
 a:active { color:#0070BD; } /* selected */
